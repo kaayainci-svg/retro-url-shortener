@@ -254,8 +254,7 @@ EXTERNAL_IMAGE_PATH = Path(
 
 def resolve_bg_image() -> Path | None:
     candidates = [
-        PROJECT_DIR / "image_9.png",
-        PROJECT_DIR / "static" / "image_9.png",
+       PROJECT_DIR / "image_9.png.png",
         EXTERNAL_IMAGE_PATH,
     ]
     for candidate in candidates:
